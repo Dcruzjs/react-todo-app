@@ -56,9 +56,6 @@ function AppUI() {
         openModal={openModal}
       />
 
-      
-      
-
     </>
   )
 }

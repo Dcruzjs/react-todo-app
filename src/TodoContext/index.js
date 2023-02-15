@@ -13,8 +13,6 @@ function TodoProvider(props) {
   const [openModal, setOpenModal] = React.useState(false);
   const completedTodos = todos.filter(todo => !!todo.completed).length;
   const totalTodos = todos.length;
- 
-
 
   const addTodo = (text) => {
     setId(prevId => ++prevId);
